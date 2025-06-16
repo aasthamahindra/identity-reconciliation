@@ -7,6 +7,9 @@ This project implements the [Bitespeed Identity Reconciliation challenge](https:
 * 🔁 **Contact identity resolution** based on email/phone linking rules
 
 ---
+## App hosted on: https://identity-reconciliation-ofy2.onrender.com
+* Endpoint: /identify [POST]
+---
 
 ## 🚀 Setup Instructions
 
@@ -116,3 +119,5 @@ You can test all 5 cases mentioned in the Notion doc using **Postman** or **cURL
 ## 📄 License
 
 This is a take-home challenge solution. All rights to original problem © Bitespeed.
+
+
