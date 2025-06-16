@@ -1,6 +1,8 @@
 require('dotenv').config();
 const fastify = require('fastify')({ logger: true });
 
+fastify.register(require('./routes/identify.routes'));
+
 const start = async () => {
   try {
     fastify.listen({ port: process.env.PORT });
